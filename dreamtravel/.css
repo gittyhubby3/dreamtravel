@@ -1,0 +1,51 @@
+/* Resetarea stilurilor implicite ale browserului */
+body, h1, p, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setează fontul global pentru întregul site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEBA4F;
+    color: #333;
+    text-align: center;
+}
+
+/* Stiluri pentru header */
+header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Stiluri pentru titlu */
+h1 {
+    color: #333;
+}
+
+/* Stiluri pentru imaginile din content */
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Stiluri pentru secțiunea de contact */
+.contact {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact h2 {
+    color: #333;
+}
+
+.contact p {
+    margin: 5px 0;
+    font-size: 16px;
+}
